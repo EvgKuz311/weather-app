@@ -1,0 +1,119 @@
+@import "./reset.css";
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 15px 29px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #679CEC 34.9%), #FFFFFF;
+}
+
+.title{
+    margin-bottom:25px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 49px;
+    color: #D09600;
+}
+
+.form{
+    display: flex;
+    height: 70px;
+    background: #9A9EA2;
+    border-radius: 15px;  
+}
+
+.input{
+padding: 15px;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1;
+
+    color: #000000;
+}
+
+.btn{
+    width: 134px;
+    height: 70px;
+    background: #D09600;
+    border-radius: 15px;
+    
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1;
+
+    color: #000000;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover{
+    background: #f7c545;
+}
+
+/* Card */
+
+.card{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    width: 460px;
+    padding: 10px 10px 56px;
+    background: linear-gradient(101.18deg, #0063BF 0%, rgba(0, 0, 0, 0.33) 99.44%);
+    border-radius: 15px;
+}
+
+.card-city{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 45px;
+    
+    color: #000000;
+    
+}
+
+.card-weather{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-value{
+    font-size: 37px;
+    line-height: 45px;
+}
+
+.card-value sup{
+    font-size: 50%;
+}
+
+.card-img{
+
+}
+
+.card-description{
+    font-family: inter;
+    font-size: 35px;
+    line-height: 27px;
+    text-align: right;
+}
+
+
