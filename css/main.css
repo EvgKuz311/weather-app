@@ -75,7 +75,7 @@ padding: 15px;
     flex-direction: column;
     row-gap: 20px;
 
-    width: 460px;
+    min-width: 460px;
     padding: 10px 10px 56px;
     background: linear-gradient(101.18deg, #0063BF 0%, rgba(0, 0, 0, 0.33) 99.44%);
     border-radius: 15px;
@@ -106,7 +106,9 @@ padding: 15px;
 }
 
 .card-img{
-
+    width: 126px;
+    height: 120px;
+    object-fit: cover;
 }
 
 .card-description{
